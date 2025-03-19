@@ -1,0 +1,191 @@
+{
+  "components": [
+    {
+      "bom-ref": "Newlib nanolib@4.1.0",
+      "cpe": "cpe:2.3:a:newlib_project:newlib:4.1.0:*:*:*:*:*:*:*",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://sourceware.org/git/?p=newlib-cygwin.git;a=commit;h=415fdd4279b85eeec9d54775ce13c5c412451e08"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Various MIT/BSD-like licenses"
+          }
+        }
+      ],
+      "name": "Newlib nanolib",
+      "version": "4.1.0"
+    },
+    {
+      "bom-ref": "SBSFU@2.5.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.st.com/en/embedded-software/x-cube-sbsfu.html"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "ST SLA0044"
+          }
+        }
+      ],
+      "name": "SBSFU",
+      "version": "2.5.0"
+    },
+    {
+      "bom-ref": "STM32 Cryptographic Middleware@3.0.0",
+      "cpe": "cpe:2.3:a:st:stm32cubemx:-:*:*:*:*:*:*:*",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.st.com/en/embedded-software/x-cube-crypto-v3.html"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "ST SLA0044"
+          }
+        }
+      ],
+      "name": "STM32 Cryptographic Middleware",
+      "version": "3.0.0"
+    },
+    {
+      "bom-ref": "STM32 HAL@1.12.0",
+      "cpe": "cpe:2.3:o:st:stm32cubel4_firmware:-:*:*:*:*:*:*:*",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/STMicroelectronics/STM32CubeL4/tree/master/Drivers/STM32L4xx_HAL_Driver"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "name": "STM32 HAL",
+      "type": "library",
+      "version": "1.12.0"
+    },
+    {
+      "bom-ref": "STM32 USB Device Library@2.7.1",
+      "cpe": "cpe:2.3:a:st:stm32cubemx:-:*:*:*:*:*:*:*",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/STMicroelectronics/STM32CubeL4/tree/master/Middlewares/ST/STM32_USB_Device_Library"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "ST SLA0044"
+          }
+        }
+      ],
+      "name": "STM32 USB Device Library",
+      "version": "2.7.1"
+    },
+    {
+      "bom-ref": "STM32L4 firmware@edd5ddd3-6da7-41d8-afb9-cca09d345da9",
+      "cpe": "cpe:2.3:o:st:stm32cubel4_firmware:-:*:*:*:*:*:*:*",
+      "name": "STM32L4 firmware",
+      "version": ""
+    },
+    {
+      "bom-ref": "STM32L4@76edc353-ffed-4484-8e6d-577c66903243",
+      "cpe": "cpe:2.3:o:st:stm32l4_firmware:-:*:*:*:*:*:*:*",
+      "name": "STM32L4",
+      "version": ""
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "Nemeio STM32 bootloader"
+    },
+    {
+      "ref": "Newlib nanolib@4.1.0"
+    },
+    {
+      "ref": "SBSFU@2.5.0"
+    },
+    {
+      "ref": "STM32 Cryptographic Middleware@3.0.0"
+    },
+    {
+      "ref": "STM32 HAL@1.12.0"
+    },
+    {
+      "ref": "STM32 USB Device Library@2.7.1"
+    },
+    {
+      "ref": "STM32L4 firmware@edd5ddd3-6da7-41d8-afb9-cca09d345da9"
+    },
+    {
+      "ref": "STM32L4@76edc353-ffed-4484-8e6d-577c66903243"
+    }
+  ],
+  "metadata": {
+    "component": {
+      "bom-ref": "Nemeio STM32 bootloader",
+      "name": "Nemeio STM32 bootloader",
+      "type": "library"
+    },
+    "timestamp": "2023-05-25T12:13:37.843729+00:00",
+    "tools": [
+      {
+        "externalReferences": [
+          {
+            "type": "build-system",
+            "url": "https://github.com/CycloneDX/cyclonedx-python-lib/actions"
+          },
+          {
+            "type": "distribution",
+            "url": "https://pypi.org/project/cyclonedx-python-lib/"
+          },
+          {
+            "type": "documentation",
+            "url": "https://cyclonedx.github.io/cyclonedx-python-lib/"
+          },
+          {
+            "type": "issue-tracker",
+            "url": "https://github.com/CycloneDX/cyclonedx-python-lib/issues"
+          },
+          {
+            "type": "license",
+            "url": "https://github.com/CycloneDX/cyclonedx-python-lib/blob/main/LICENSE"
+          },
+          {
+            "type": "release-notes",
+            "url": "https://github.com/CycloneDX/cyclonedx-python-lib/blob/main/CHANGELOG.md"
+          },
+          {
+            "type": "vcs",
+            "url": "https://github.com/CycloneDX/cyclonedx-python-lib"
+          },
+          {
+            "type": "website",
+            "url": "https://cyclonedx.org"
+          }
+        ],
+        "name": "cyclonedx-python-lib",
+        "vendor": "CycloneDX",
+        "version": "4.0.0"
+      }
+    ]
+  },
+  "serialNumber": "urn:uuid:1715f81d-e789-4a7d-bb15-1dfd6569892d",
+  "version": 1,
+  "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4"
+}

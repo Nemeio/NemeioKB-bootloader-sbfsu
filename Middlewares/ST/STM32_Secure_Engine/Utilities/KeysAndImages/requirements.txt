@@ -1,0 +1,7 @@
+pycryptodome
+pycryptodomex
+ecdsa
+pyelftools
+numpy
+azure-keyvault-keys
+-r ./azure_keyvault_signer/requirements.txt
